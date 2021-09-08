@@ -70,7 +70,7 @@ public class CLS_cpufreq {
 					} catch (FileNotFoundException ex) {
 						Logger.getLogger(CLS_cpufreq.class.getName()).log(Level.SEVERE, null, ex);
 						GLOBAL.vCPUMulti = false;			// Assume no need for separate handling.
-						SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0], "File not found...");
+						SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0],"" , "File not found...");
 						return null;
 					}
 					if (LinesRead != null && LinesRead.size() > 0) {
@@ -106,7 +106,7 @@ public class CLS_cpufreq {
 				} catch (FileNotFoundException ex) {
 					Logger.getLogger(CLS_cpufreq.class.getName()).log(Level.SEVERE, null, ex);
 					GLOBAL.vCPUMulti = false;			// Assume no need for separate handling.
-					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0], "File not found...");
+					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0],"" , "File not found...");
 					return null;
 				}
 				if (LinesRead != null && LinesRead.size() > 0) {
@@ -131,7 +131,7 @@ public class CLS_cpufreq {
 					LinesRead = readLinesFromFile(tmpFile);
 				} catch (FileNotFoundException ex) {
 					Logger.getLogger(CLS_cpufreq.class.getName()).log(Level.SEVERE, null, ex);
-					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0], "File not found...");
+					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0],"" , "File not found...");
 					return null;
 				}
 				if (LinesRead != null && LinesRead.size() > 0) {
@@ -157,7 +157,7 @@ public class CLS_cpufreq {
 				} catch (FileNotFoundException ex) {
 					Logger.getLogger(CLS_cpufreq.class.getName()).log(Level.SEVERE, null, ex);
 					GLOBAL.vCPUMulti = false;			// Assume no need for separate handling.
-					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0], "File not found...");
+					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0],"" , "File not found...");
 					return null;
 				}
 				if (LinesRead != null && LinesRead.size() > 0) {
@@ -185,7 +185,7 @@ public class CLS_cpufreq {
 					LinesRead = readLinesFromFile(tmpFile);
 				} catch (FileNotFoundException ex) {
 					Logger.getLogger(CLS_cpufreq.class.getName()).log(Level.SEVERE, null, ex);
-					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0], "File not found...");
+					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0],"" , "File not found...");
 					return null;
 				}
 				if (LinesRead != null && LinesRead.size() > 0) {
@@ -210,7 +210,7 @@ public class CLS_cpufreq {
 					LinesRead = readLinesFromFile(tmpFile);
 				} catch (FileNotFoundException ex) {
 					Logger.getLogger(CLS_cpufreq.class.getName()).log(Level.SEVERE, null, ex);
-					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0], "File not found...");
+					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0],"" , "File not found...");
 					return null;
 				}
 				if (LinesRead != null && LinesRead.size() > 0) {
@@ -235,7 +235,7 @@ public class CLS_cpufreq {
 					LinesRead = readLinesFromFile(tmpFile);
 				} catch (FileNotFoundException ex) {
 					Logger.getLogger(CLS_cpufreq.class.getName()).log(Level.SEVERE, null, ex);
-					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0], "File not found...");
+					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0],"" , "File not found...");
 					return null;
 				}
 				if (LinesRead != null && LinesRead.size() > 0) {
@@ -261,7 +261,7 @@ public class CLS_cpufreq {
 				} catch (FileNotFoundException ex) {
 					Logger.getLogger(CLS_cpufreq.class.getName()).log(Level.SEVERE, null, ex);
 					GLOBAL.vCPUMulti = false;			// Assume no need for separate handling.
-					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0], "File not found...");
+					SUB_Popups.MsgErrorOK(FRM_Main.getFrames()[0],"" , "File not found...");
 					return null;
 				}
 				if (LinesRead != null && LinesRead.size() > 0) {
